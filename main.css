@@ -37,7 +37,7 @@
     top: 60px;
     width: 1100px;
     z-index: 1;
-    margin: 0 60px 0 295px;
+    margin: 0 60px 0 125px;
 
 }
 
@@ -253,7 +253,7 @@
 /* third container */
 .third--container--description{
     float:left;
-    margin: 110px 70px 110px 0;
+    margin: 110px 70px 210px 0;
 }
 
 .third--container--checklist{
@@ -301,29 +301,52 @@
 }
 
 
+main{
+    margin: 0 0 700px 0;
+}
+
 
 /* footer */
 
 
-/* footer styling */
-.footer {
-    margin: 300px 0 0 0;
-    padding: 20px 100px;
+
+.footer{
+    padding: 0 100px;
     background-color: var(--light-primary-grey);
+    position:relative;
+}
+.footer--logo,.footer--buttons,.footer--social--icons,.footer--copyright{
+    position: absolute;
+}
+.footer--logo{
+    top: 30px;
+}
+.footer--buttons{
+    top: 10px;
+    left:40%;
+}
+.footer--social--icons{
+    top: 30px;
+    right:100px
 }
 
-
-.footer--logo,
-.footer--buttons,
-.footer--social--icons {
+.footer--twitter--icon,.footer--facebook--icon,.footer--instagram--icon{
     display: inline-block;
+    color: var(--black);
+    padding: 4px;
+    border-radius: 6px;
+    border: solid 1px #e7e8ea;
+    background-color: var(--white);
+    text-align: center;
+}
+.footer--twitter--icon, .footer--facebook--icon,.footer--instagram--icon > i {
+    color: var(--primary-grey);
 }
 
-/* .footer--buttons {
-} */
+
 
 .footer--logo > p {
-    font-family: monospace;
+    font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: var(--secondary-grey);
@@ -332,41 +355,18 @@
 
 
 .footer--buttons > img {
-    display: inline-block;
-    margin: 0 5px;
+    margin: 0;
     width: 140px;
     object-fit: contain;
     background-color: var(--light-primary-grey);
     border: none;
 }
-
-.footer--twitter--icon, .footer--facebook--icon,.footer--instagram--icon{
-    display: inline-block;
-    transform: translateY(-25px);
-    color: var(--black);
-    padding: 4px;
-    border-radius: 6px;
-    border: solid 1px #e7e8ea;
-    background-color: var(--white);
-    text-align: center;
-}
-
-.footer--twitter--icon, .footer--facebook--icon,.footer--instagram--icon > i {
-    color: var(--primary-grey);
-}
-
-
 .footer--copyright {
+    top: 150px;
+    padding:0 0 40px 0;
     height: 14px;
-    font-family: monospace;
+    font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
     font-size: 11px;
     color: #999ea8;
-    margin: 62px 0 25px 0;
 }
-
-
-
-
-/* footer styling ends here */
-
 /* footer styling ends here */
