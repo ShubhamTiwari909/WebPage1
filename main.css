@@ -134,6 +134,7 @@
 }
 
 
+
 /* Common stylings starts here */
 
 /* all three containers are inline-block*/
@@ -314,12 +315,14 @@ main{
     padding: 0 100px;
     background-color: var(--light-primary-grey);
     position:relative;
+    height: 100px;
 }
 .footer--logo,.footer--buttons,.footer--social--icons,.footer--copyright{
     position: absolute;
 }
 .footer--logo{
     top: 30px;
+    left: 120px;
 }
 .footer--buttons{
     top: 10px;
@@ -327,7 +330,7 @@ main{
 }
 .footer--social--icons{
     top: 30px;
-    right:100px
+    right:150px;
 }
 
 .footer--twitter--icon,.footer--facebook--icon,.footer--instagram--icon{
