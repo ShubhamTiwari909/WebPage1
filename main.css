@@ -43,7 +43,8 @@ header {
     bottom: 0;
     margin: 0 auto;
     width: 1000px;
-    z-index: 1;
+    z-index: 10;
+    height: 100px;
 }
 
 .primary-navigation-logo {
@@ -68,6 +69,10 @@ header {
     font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+.nav--link{
+    text-decoration: none;
     color: var(--white);
 }
 
@@ -130,9 +135,10 @@ header {
 .btn-green {
     background-color: var(--primary-green);
     box-shadow: 0 6px 11px 0 rgba(0, 0, 0, 0.5);
+    font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
     border: none;
     border-radius: 4px;
-    color: var(--white)
+    color: var(--white);
 }
 
 /* HEADER BANNER styling end here */
@@ -156,7 +162,18 @@ header {
     margin: 0 auto 0 175px;
 }
 
+.first--container--margin{
+    margin-top: 110px;
+    margin-bottom:110px;
+}
+.second--container--margin{
+    margin-bottom: 170px;
+}
 
+.third--container--margin{
+    margin-top: 110px;
+    margin-bottom:210px;
+}
 /* Common stylings starts here */
 
 /* all three containers are inline-block*/
@@ -201,7 +218,6 @@ header {
 /* first container stylings */
 .first--container--description {
     float: left;
-    margin: 110px 0 110px 0;
 }
 
 
@@ -219,7 +235,6 @@ header {
 
 .first--container--image {
     float: right;
-    margin: 110px 0 110px 0;
 }
 
 
@@ -233,14 +248,12 @@ header {
 /* second container */
 .second--container--description {
     float: right;
-    margin: 0 0 170px 0;
     padding: 180px 0 0 0;
     height: 524px;
 }
 
 .second--container--image {
     float: left;
-    margin: 0 0 110px 0;
 }
 
 .second--container--paragraph {
@@ -276,7 +289,6 @@ header {
 /* third container */
 .third--container--description {
     float: left;
-    margin: 110px 0 210px 0;
 }
 
 .third--container--checklist {
@@ -315,7 +327,6 @@ header {
 
 .third--container--image {
     float: right;
-    margin: 110px 0 110px 0;
 }
 
 
@@ -353,14 +364,15 @@ header {
     transform:translate(-50%,-50%);
 }
 .footer--social--icons{
-    top: 30px;
+    top: 35px;
     right:120px;
+    box-sizing: border-box;
 }
 
 .footer--twitter--icon,.footer--facebook--icon,.footer--instagram--icon{
     display: inline-block;
     color: var(--black);
-    padding: 4px;
+    padding: 3px;
     border-radius: 6px;
     border: solid 1px #e7e8ea;
     background-color: var(--white);
@@ -390,6 +402,7 @@ header {
 }
 .footer--copyright {
     top: 150px;
+    left: 140px;
     padding:0 0 40px 0;
     height: 14px;
     font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
