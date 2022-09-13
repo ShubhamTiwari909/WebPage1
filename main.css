@@ -369,7 +369,7 @@ header {
     transform:translate(-50%,-50%);
 }
 .footer--social--icons{
-    top: 60px;
+    top: 55px;
     right:120px;
     box-sizing: border-box;
 }
@@ -377,7 +377,7 @@ header {
 .footer--twitter--icon,.footer--facebook--icon,.footer--instagram--icon{
     display: inline-block;
     color: var(--black);
-    padding: 3px;
+    padding: 11px;
     border-radius: 6px;
     border: solid 1px #e7e8ea;
     background-color: var(--white);
@@ -387,7 +387,18 @@ header {
     color: var(--primary-grey);
 }
 
+.footer--twitter--icon{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.footer--facebook--icon{
+    border-radius: 0;
+}
 
+.footer--instagram--icon{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
 
 .footer--logo > p {
     font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
