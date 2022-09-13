@@ -349,7 +349,7 @@ header {
 .footer {
     background-color: var(--light-primary-grey);
     position: relative;
-    height: 100px;
+    height: 150px;
 }
 
 .footer--logo,
@@ -359,7 +359,7 @@ header {
     position: absolute;
 }
 .footer--logo{
-    top: 30px;
+    top: 55px;
     left: 150px;
 }
 .footer--buttons{
@@ -368,7 +368,7 @@ header {
     transform:translate(-50%,-50%);
 }
 .footer--social--icons{
-    top: 35px;
+    top: 60px;
     right:120px;
     box-sizing: border-box;
 }
@@ -405,12 +405,20 @@ header {
     border: none;
 }
 .footer--copyright {
+    background-color: #f8f9fa;
+    width: 100%;
+    height:100px;
     top: 150px;
-    left: 140px;
     padding:0 0 40px 0;
     height: 14px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11px;
     color: #999ea8;
+}
+.footer--copyright--text {
+    position: absolute;
+    left: 140px;
+    top: 50%;
+    transform:translateY(-50%);
 }
 /* footer styling ends here */
