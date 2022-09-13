@@ -347,9 +347,10 @@ header {
 
 
 .footer {
-    background-color: var(--light-primary-grey);
     position: relative;
     height: 150px;
+    background-color: var(--light-primary-grey);
+    border: solid 1px #e7e8ea;
 }
 
 .footer--logo,
