@@ -60,7 +60,6 @@ header {
 .primary-navigation-links {
     float: right;
     list-style-type: none;
-    transform: translateX(40px)
 }
 
 .primary-link {
