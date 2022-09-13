@@ -70,14 +70,15 @@ header {
     font-weight: 600;
 }
 
-.nav--link{
+.nav--link {
     text-decoration: none;
     color: var(--white);
 }
 
-.primary-link:nth-child(3){
+.primary-link:nth-child(3) {
     margin: 0;
 }
+
 /* NAVIGATION BAR styling end here */
 
 
@@ -164,18 +165,20 @@ header {
     margin: 0 auto;
 }
 
-.first--container--margin{
+.first--container--margin {
     margin-top: 110px;
-    margin-bottom:110px;
+    margin-bottom: 110px;
 }
-.second--container--margin{
+
+.second--container--margin {
     margin-bottom: 170px;
 }
 
-.third--container--margin{
+.third--container--margin {
     margin-top: 250px;
-    margin-bottom:150px;
+    margin-bottom: 150px;
 }
+
 /* Common stylings starts here */
 
 /* all three containers are inline-block*/
@@ -358,22 +361,29 @@ header {
 .footer--copyright {
     position: absolute;
 }
-.footer--logo{
+
+.footer--logo {
     top: 55px;
     left: 150px;
 }
-.footer--buttons{
+
+.footer--buttons {
     top: 50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.footer--social--icons{
+
+.footer--social--icons {
     top: 55px;
-    right:120px;
+    right: 120px;
     box-sizing: border-box;
 }
 
-.footer--twitter--icon,.footer--facebook--icon,.footer--instagram--icon{
+.footer--twitter--icon,
+.footer--facebook--icon,
+.footer--instagram--icon {
+    width:40px;
+    height:40px;
     display: inline-block;
     color: var(--black);
     padding: 11px;
@@ -382,24 +392,44 @@ header {
     background-color: var(--white);
     text-align: center;
 }
-.footer--twitter--icon, .footer--facebook--icon,.footer--instagram--icon > i {
-    color: var(--primary-grey);
-}
 
-.footer--twitter--icon{
+.footer--twitter--icon {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.footer--facebook--icon{
+
+.footer--facebook--icon {
     border-radius: 0;
 }
 
-.footer--instagram--icon{
+.footer--instagram--icon {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
-.footer--logo > p {
+
+.footer--twitter--icon,
+.footer--facebook--icon,
+.footer--instagram--icon>i {
+    color: var(--primary-grey);
+}
+
+.footer--twitter--icon i {
+    width: 16px;
+    height: 13px;
+}
+
+.footer--facebook--icon i {
+    width: 12px;
+    height: 16px;
+}
+
+.footer--instagram--icon i {
+    width: 16px;
+    height: 16px;
+}
+
+.footer--logo>p {
     font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -408,28 +438,31 @@ header {
 }
 
 
-.footer--buttons > img {
+.footer--buttons>img {
     margin: 0;
     width: 140px;
     object-fit: contain;
     background-color: var(--light-primary-grey);
     border: none;
 }
+
 .footer--copyright {
     background-color: #f8f9fa;
     width: 100%;
-    height:100px;
+    height: 100px;
     top: 150px;
-    padding:0 0 40px 0;
+    padding: 0 0 40px 0;
     height: 14px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11px;
     color: #999ea8;
 }
+
 .footer--copyright--text {
     position: absolute;
     left: 140px;
     top: 50%;
-    transform:translateY(-50%);
+    transform: translateY(-50%);
 }
+
 /* footer styling ends here */
