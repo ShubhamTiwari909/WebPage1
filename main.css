@@ -81,8 +81,15 @@ header {
 
 /* NAVIGATION BAR styling end here */
 
+.fa-arrow-right {
+    margin: 0 0 0 7px
+}
 
-
+hr {
+    position: absolute;
+    width: 48%;
+    background-color: black
+}
 
 /* HEADER BANNER styling start here */
 
@@ -287,6 +294,12 @@ header {
     width: 460px;
     height: 524px;
 }
+.second--container--icon{
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin: 20px 0 0 0;
+}
 
 
 
@@ -382,8 +395,8 @@ header {
 .footer--twitter--icon,
 .footer--facebook--icon,
 .footer--instagram--icon {
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
     color: var(--black);
     padding: 11px;
