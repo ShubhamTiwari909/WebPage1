@@ -40,17 +40,13 @@ header {
     right: 0;
     left: 0;
     top: 38px;
-    bottom: 0;
     margin: 0 auto;
     width: 1000px;
     z-index: 10;
-    height: 100px;
 }
 
 .primary-navigation-logo {
     float: left;
-    width: 54px;
-    height: 28px;
     font-family: 'Source Sans Pro', 'Source Sans Pro', sans-serif;
     font-size: 22px;
     font-weight: 600;
@@ -111,23 +107,19 @@ hr {
 }
 
 .header-primary-title {
-    padding: 0;
     text-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 70px;
     font-weight: bolder;
-    text-align: center;
     word-spacing: 10px;
     color: var(--white);
 }
 
 .header-secondary-title {
-    padding: 0;
     text-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 26px;
     font-weight: bold;
-    text-align: center;
     letter-spacing: -1px;
     word-spacing: 2px;
     color: var(--white);
@@ -138,7 +130,6 @@ hr {
     width: 202px;
     height: 46px;
     padding: 13px 55px 13px 56px;
-    border-radius: 3px;
     text-decoration: none;
 }
 
@@ -149,6 +140,7 @@ hr {
     border: none;
     border-radius: 4px;
     color: var(--white);
+    display: inline-block;
 }
 
 /* HEADER BANNER styling end here */
@@ -183,7 +175,6 @@ hr {
 
 .third--container--margin {
     margin-top: 250px;
-    margin-bottom: 150px;
 }
 
 /* Common stylings starts here */
@@ -250,18 +241,11 @@ hr {
 }
 
 
-.first--container--image>img {
-    width: 415px;
-    height: 176px;
-}
-
-
 
 /* second container */
 .second--container--description {
     float: right;
-    padding: 180px 0 0 0;
-    height: 524px;
+    margin: 180px 0 0 0;
 }
 
 .second--container--image {
@@ -362,6 +346,7 @@ hr {
 
 
 .footer {
+    margin-top: 150px;
     position: relative;
     height: 150px;
     background-color: var(--light-primary-grey);
